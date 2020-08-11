@@ -1,5 +1,11 @@
 {
-    "name": "expressjs",
+    "name": "express-docker",
+    "version": "1.0.0",
+    "description": "ExpressJS template using Docker-Compose with hot reloading via Volumes and Nodemon",
+    
+    "author": "Jaden Gregory <dev@jadengregory.com.au",
+    "license": "MIT",
+
     "main": "server.js",
     "scripts": { 
         "start": "nodemon server.js --legacy-watch"
@@ -7,5 +13,12 @@
     "dependencies": {
         "express": "^4.17.1",
         "nodemon": "^2.0.4"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DoubleJ-G/ExpressJS-Docker.git"
+    },
+    "keywords": ["docker", "node", "expressjs"]
+    
+    
 }
